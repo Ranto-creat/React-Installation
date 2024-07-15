@@ -22,5 +22,7 @@ npm create vite@latest
 
 ```npm run dev```
 
+### Installation completed successfully [image](./localHost.png)
+
 
 >> Link our vite site [click here](https://vitejs.dev/guide/)
