@@ -24,5 +24,35 @@ npm create vite@latest
 
 ### Installation completed successfully [image](./localHost.png)
 
-
 >> Link our vite site [click here](https://vitejs.dev/guide/)
+
+## Install Tailwinds in React
+
+``npm install -D tailwindcss postcss autoprefixer``
+``npx tailwindcss init -p``
+
+## Configurer Tailwind CSS
+
+> tailwind.config.js
+
+````jsx
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+````
+
+> src/index.css
+
+````jsx
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+````
